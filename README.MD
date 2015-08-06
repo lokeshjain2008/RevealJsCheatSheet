@@ -2,6 +2,15 @@
 
 1. stat with element .reveal
 2. all the slides will be inside the .slides
+  e.g.
+  ```html
+  <div class="reveal">
+    <div class="slides">
+      //All slides...
+    </div>
+  </div>
+  ```
+
 3. Each slide will be inside `section` Target
   e.g
   ```html
@@ -25,7 +34,8 @@
   ```
 7. Fragments in slides
   1. create child slide with id `fragments`.
-    e.g
+    e.g.
+
     ```html
       <section id="fragments">
       </section>
@@ -38,6 +48,7 @@
       - fragment content-visible
       - fragment highlight-red/blue
       e.g.
+
       ```html
         <p class="fragment grow">grow</p>
         <p class="fragment shrink">shrink</p>
@@ -59,7 +70,7 @@
     ```
 10. Above can be contenteditable
     ```html
-      <pre><code>
+      <pre><code contenteditable>
       alert("Hello");
       </code>
       </pre>
