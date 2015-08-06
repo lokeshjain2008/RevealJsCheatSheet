@@ -56,12 +56,14 @@
 
       ```
 8. transitions
+
     ```html
      <section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
      content
      </section>
     ```
 9. Code highlight
+
     ```html
       <pre><code>
       alert("Hello");
@@ -69,6 +71,7 @@
       </pre>
     ```
 10. Above can be contenteditable
+
     ```html
       <pre><code contenteditable>
       alert("Hello");
